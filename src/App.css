@@ -2,21 +2,35 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.App-header {
+  display: flex;
 }
 
-.App-header {
+.App-header>form{
+  margin-right: 10px;
+}
+
+.App-capsule-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.App-capsule-list>li {
+  background-color: #000;
+  margin-bottom: 50px;
+  margin-right: 2%;
+  padding: 10px;
+  width: 45%;
+}
+
+.App-container {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(5px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #09d3ac;
 }
